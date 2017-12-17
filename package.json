@@ -3,7 +3,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://bears-project.herokuapp.com/"
+    "url": "https://bears-project.herokuapp.com/api"
   },
   "scripts": {
     "start": "node server.js"
