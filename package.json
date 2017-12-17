@@ -3,12 +3,12 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/scotch-io/node-token-authentication"
+    "url": "https://bears-project.herokuapp.com/"
   },
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Chris Sevilleja <scotch.io>",
+  "author": "Godfred<https://github.com/godfredakpan/Bears-Project>",
   "license": "MIT",
   "dependencies": {
     "express": "~4.16.1",
