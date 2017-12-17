@@ -47,7 +47,7 @@ router.use(function(req, res, next) {
 
 // test route to make sure everything is working (accessed at GET https://bears-project.herokuapp.com/api)
 router.get('/', function(req, res) {
-	res.json({ message: 'hooray! welcome to our api!' });	
+	res.json({ message: 'Okay Mr Idongesit! welcome to my api modified by Godfred!' });	
 });
 
 // on routes that end in /bears
@@ -64,7 +64,7 @@ router.route('/bears')
 			if (err)
 				res.send(err);
 
-			res.json({ message: 'Bear created!' });
+			res.json({ message: 'Bear created! and ready to move' });
 		});
 
 		
